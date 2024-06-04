@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+    challenge:
+        restart: always
+        environment:
+            - "FLAG=MCTF{D0nT_L3t_Me_Ch0os3_My_H4sH_V@lu3}"
+        build:
+            context: .
+        container_name: crypto_letmeverify
+        ports:
+            - 5000:5000
