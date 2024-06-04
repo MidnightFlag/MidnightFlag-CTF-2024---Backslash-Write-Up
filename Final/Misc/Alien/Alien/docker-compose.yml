@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+    challenge:
+        restart: always
+        environment:
+            - "FLAG=flag{Sn@kY_Enc0d1ng}"
+        build:
+            context: .
+        container_name: misc_alien
+        ports:
+            - 5000:5000
