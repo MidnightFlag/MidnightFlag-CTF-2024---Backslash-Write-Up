@@ -1,0 +1,4 @@
+pwntools
+pycryptodome
+Flask
+Werkzeug==2.2
