@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+    challenge:
+        restart: always
+        environment:
+            - "FLAG=flag{ThisIsTheFlag}"
+        build:
+            context: .
+        container_name: LetMeHash
+        ports:
+            - 5000:5000
