@@ -10,3 +10,8 @@ WU : https://github.com/Papushkado/Write-ups-CTFs/tree/main/Midnight_CTF_2024/Fi
 
 Autor : Papushkado
 
+Name chall : Hacking9
+
+WU name : Write-up_Hackin9.pdf
+
+Autor : kuorashi
