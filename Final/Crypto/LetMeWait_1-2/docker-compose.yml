@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+    challenge:
+        restart: always
+        environment:
+            - "FLAG=flag{TheRealOneIsTheStep2;)}"
+        build:
+            context: .
+        container_name: crypto_letmewait_1_2
+        ports:
+            - 5000:5000

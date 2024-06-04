@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+    challenge:
+        restart: always
+        environment:
+            - "FLAG=flag{Tim1ngBa5edOr@cl3}"
+        build:
+            context: .
+        container_name: crypto_letmewait_2_2
+        ports:
+            - 5000:5000
